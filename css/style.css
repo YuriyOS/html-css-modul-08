@@ -1,0 +1,392 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 320px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER
+=====================================================*/
+
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-links {
+    margin: 0px 0px 130px 0px;
+    padding: 30px 0px 0px 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    padding-left: 22px;
+    padding-right: 22px;
+
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.link:hover {
+    width: 94px;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    justify-content: center;
+    }
+
+.logo-link {
+    text-decoration: none;
+}
+.logo-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* SECTION INTRO - MOBILE
+=====================================================*/
+
+.intro {
+    padding: 226px 0px 138px 0px;
+    background-image: url(/img/mobile/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.offer {
+    margin: 0px 0px 15px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.offer-subheading {
+    margin: 0px 0px 18px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.action-button {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    max-width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+}
+
+/* SECTION MEET PARTNER - MOBILE
+=====================================================*/
+
+.meet-partner {
+    padding: 68px 0px 56px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-title {
+    margin: 0px 0px 16px 0px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.partners-list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.partner-card {
+    margin-bottom: 26px;
+    width: 236px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.partner-photo {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-wrap {
+    width: 121px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+.img-wrap::after {
+    content: '';
+    display: block;
+    width: 37px;
+    height: 37px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+}
+
+.icon-tv::after  {
+    background-image: url(/img/icons/tv.png);
+    background-color: #ff4e50;  
+}
+
+.icon-flask::after  {
+    background-image: url(/img/icons/flask.png);
+    background-color: #ffa507;  
+}
+
+.icon-cup::after  {
+    background-image: url(/img/icons/cup.png);
+    background-color: #1cd7ad;  
+}
+
+.icon-plane::after  {
+    background-image: url(/img/icons/plane.png);
+    background-color: #4e73db;  
+}
+
+.partner-name {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    margin: 0px 0px 16px 0px;
+}
+
+.partner-about {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;  
+}
+
+.see-other-btn {
+    display: block;
+    margin: 0 auto;
+    width: 284px;
+    max-width: 100%;
+    height: 44px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ff4e50;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 78, 80);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);    
+}
+
+
+    /* TABLET
+=====================================================*/
+@media (min-width: 321px) and (max-width: 768px) {
+    .container {
+        width: 660px;
+        max-width: 100%; 
+        margin: 0 auto;
+    }
+
+    /* HEADER - TABLET
+=====================================================*/
+    .header {
+        width: 100%; 
+        padding: 50px 50px 50px 50px;
+    }
+
+    .header-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .login-links {
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+
+    /* SECTION INTRO - TABLET
+=====================================================*/
+
+.intro {
+    padding: 222px 0px 234px 0px;
+    background-image: url(/img/background-tablet.jpg);
+}
+
+    .offer {
+        width: 532px;
+        max-width: 100%;
+        margin: 0 auto 32px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+
+    .offer-subheading {
+        margin-bottom: 30px;
+    }
+     
+    /* SECTION MEET PARTNER - TABLET
+=====================================================*/
+
+    .meet-partner {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .partners-list {
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partner-card {
+        width: 236px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .partner-card:nth-last-child(even) { 
+        margin-right: 20px;
+    }
+
+    .partner-card:last-child {
+        margin-right: 0px;
+    }
+
+}
+
+
+
+    /* PC
+=====================================================*/
+@media (min-width: 769px) { 
+    .container {
+        width: 940px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 100%;
+        padding: 50px 0px 50px 50px;
+    }
+
+    .header-wrap { 
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .login-links {
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .link-item {
+        margin-right: 20px;
+    }
+    
+
+
+        /* SECTION INTRO - PC
+=====================================================*/
+
+.intro {
+    padding: 222px 0px 234px 0px;
+    background-image: url(/img/background-pc.jpg);
+}
+
+.offer { 
+    width: 532px;
+    margin: 0 auto 40px;
+    font-size: 52px;
+    line-height: 62px;
+}
+
+.offer-subheading {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+        /* SECTION MEET PARTNER - PC
+=====================================================*/
+.section-title {
+    margin-bottom: 30px;
+}
+
+.partners-list {
+    margin-bottom: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partner-card {
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+
+
+
+  
