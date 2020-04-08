@@ -72,7 +72,7 @@ header {
 
 .intro {
     padding: 226px 0px 138px 0px;
-    background-image: url(/img/mobile/background.jpg);
+    background-image: url(../img/mobile/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
@@ -175,22 +175,22 @@ header {
 }
 
 .icon-tv::after  {
-    background-image: url(/img/icons/tv.png);
+    background-image: url(../img/icons/tv.png);
     background-color: #ff4e50;  
 }
 
 .icon-flask::after  {
-    background-image: url(/img/icons/flask.png);
+    background-image: url(../img/icons/flask.png);
     background-color: #ffa507;  
 }
 
 .icon-cup::after  {
-    background-image: url(/img/icons/cup.png);
+    background-image: url(../img/icons/cup.png);
     background-color: #1cd7ad;  
 }
 
 .icon-plane::after  {
-    background-image: url(/img/icons/plane.png);
+    background-image: url(../img/icons/plane.png);
     background-color: #4e73db;  
 }
 
@@ -262,7 +262,7 @@ header {
 
 .intro {
     padding: 222px 0px 234px 0px;
-    background-image: url(/img/background-tablet.jpg);
+    background-image: url(../img/background-tablet.jpg);
 }
 
     .offer {
@@ -350,7 +350,7 @@ header {
 
 .intro {
     padding: 222px 0px 234px 0px;
-    background-image: url(/img/background-pc.jpg);
+    background-image: url(../img/background-pc.jpg);
 }
 
 .offer { 
